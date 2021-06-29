@@ -1,0 +1,84 @@
+body{
+  background-image: url(weights.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Spartan', sans-serif;
+  font-size: 10.5px;
+
+}
+
+table{width:65%}
+table {
+  table-layout: fixed;
+}
+
+table, th, td{border: 1px #00001a solid; opacity:.9}
+
+th, td{padding: 1px; text-align:left;}
+
+tr:nth-child(even){
+  background-color: #c8c8c8;
+}
+
+tr:nth-child(odd){
+  background-color: #F5F5F5;
+}
+
+th{
+  background-color: #282828; color: #f5f5f0;
+}
+
+h1{
+  text-shadow: 3px 3px #e0e0d1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #101010;
+  opacity: .9;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  margin:0px 0px 50px 0px;
+  width:60%;
+  background-color: #eeeeee;
+  opacity: .8;
+  padding: 15px;
+  border-radius: 5px;
+  border: black;
+}
+
+.blue{
+  border-left-color: blue;
+  border-left-width: 3px;
+}
+
+.orange{
+  border-left-color: orange;
+  border-left-width: 3px;
+}
